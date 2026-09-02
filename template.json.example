@@ -1,0 +1,10 @@
+{
+  "name": "FreePBX Whisper STT Serverless",
+  "image": "vastai/whisper",
+  "tag": "1.0.8-cuda-12.9-py312",
+  "desc": "Template-backed FreePBX Whisper transcription worker for Vast Serverless",
+  "env": "-p 3000:3000 -e WORKER_PORT=3000 -e PYWORKER_REPO=https://github.com/YOUR-ORG/fpbx-stt-vast-pyworker.git -e FPBX_WHISPER_MODEL=small",
+  "runtype": "ssh",
+  "ssh_direct": true,
+  "onstart": "PASTE_THE_CONTENTS_OF_template-onstart.sh_HERE"
+}
