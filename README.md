@@ -13,7 +13,7 @@ Recommended template:
 - Name: `FreePBX Whisper STT Serverless`
 - Image: `vastai/whisper:1.0.8-cuda-12.9-py312`
 - Launch mode: SSH
-- Disk: 32 GB
+- Disk: 64 GB
 - Docker/environment options:
   `-p 3000:3000 -e WORKER_PORT=3000 -e PYWORKER_REPO=https://github.com/YOUR-ORG/fpbx-stt-vast-pyworker.git -e FPBX_WHISPER_MODEL=small`
 - On-start script: the complete contents of `template-onstart.sh`
