@@ -1,4 +1,4 @@
-# FreePBX STT Vast PyWorker
+# STT Vast PyWorker
 
 This repository runs the template-backed GPU side of the standalone FreePBX
 transcription service. Publish these files at the root of a public Git
